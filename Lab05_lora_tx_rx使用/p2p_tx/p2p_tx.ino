@@ -21,12 +21,12 @@ void setup(void) {
 
   lora.init();
 
-  lora.initP2PMode(433, SF12, BW125, 8, 8, 20);
+  lora.initP2PMode(433, SF12, BW125, 8, 8, 20); //應該是兩台機器要設定同個頻段(頻道)才可以互相傳輸
 }
 
 void loop(void) {
   // read the input on analog pin 4:
-  int sensorValue = analogRead(A4);
+  int sensorValue = analogRead(A4); //讀取A4腳位並傳送
   // print out the value you read:
   Serial.println(sensorValue);
   char buf[30];
