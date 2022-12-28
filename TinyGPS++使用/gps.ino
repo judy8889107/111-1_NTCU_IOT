@@ -6,7 +6,18 @@
 #include "TinyGPS++.h"
 TinyGPSPlus gps;
 #endif
+/*
+#ifdef  宏名
+    程序段1
+#else
+    程序段2
+#endif
+它的意思是，如果当前的宏已被定义过，则对“程序段1”进行编译，否则对“程序段2”进行编译。
+*/
 
+/*
+TinyGPS++ 詳細使用說明：http://arduiniana.org/libraries/tinygpsplus/
+*/
 char data[200] = {'\0'};
 void setup(void)
 {
@@ -20,7 +31,7 @@ void setup(void)
   while (!SerialUSB);
 
   lora.init();
-  lora.setDeviceReset();
+  lora.setDeviceReset();//reset裝置
 
 #ifdef USE_GPS
   Serial.begin(9600);     // open the GPS
@@ -101,7 +112,7 @@ void displayInfo()
   {
     hour = gps.time.hour();
     min = gps.time.minute();
-    sec = gps.time.centisecond(); //毫秒
+    sec = gps.time.second();
 
   }
   else
