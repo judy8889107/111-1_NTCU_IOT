@@ -44,10 +44,12 @@ void setup(void)
     //      if (locked)
     //        break;
 
+    //gps.charsProcessed(): 收到多少characters(the total number of characters received by the object)，失敗印出0
+    //millis(): 若未在15秒內看見data，可能是裝置出錯(if we haven't seen lots of data in 15 seconds, something's wrong.)
     if (millis() > 15000 && gps.charsProcessed() < 10)
     {
       SerialUSB.println(F("No GPS detected: check wiring."));
-      SerialUSB.println(gps.charsProcessed());
+      SerialUSB.println(gps.charsProcessed()); 
       while (true);
     }
     else if (millis() > 20000) {
@@ -73,8 +75,8 @@ void displayInfo()
   int month, day, year, hour, min, sec;
   if (gps.location.isValid())
   {
-    lat = gps.location.lat();
-    lng = gps.location.lng();
+    lat = gps.location.lat(); //緯度
+    lng = gps.location.lng(); //經度
   }
   else
   {
@@ -99,7 +101,7 @@ void displayInfo()
   {
     hour = gps.time.hour();
     min = gps.time.minute();
-    sec = gps.time.centisecond();
+    sec = gps.time.centisecond(); //毫秒
 
   }
   else
