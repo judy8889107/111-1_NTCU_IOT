@@ -1,0 +1,1454 @@
+Archive member included because of file (symbol)
+
+contiki-launchpad.a(process.o)
+                              readadc-poll.co (process_current)
+contiki-launchpad.a(autostart.o)
+                              obj_launchpad/contiki-launchpad-main.o (autostart_start)
+contiki-launchpad.a(serial-line.o)
+                              obj_launchpad/contiki-launchpad-main.o (serial_line_input_byte)
+contiki-launchpad.a(etimer.o)
+                              obj_launchpad/contiki-launchpad-main.o (etimer_process)
+contiki-launchpad.a(ctimer.o)
+                              obj_launchpad/contiki-launchpad-main.o (ctimer_init)
+contiki-launchpad.a(rtimer.o)
+                              obj_launchpad/contiki-launchpad-main.o (rtimer_init)
+contiki-launchpad.a(ringbuf.o)
+                              contiki-launchpad.a(serial-line.o) (ringbuf_init)
+contiki-launchpad.a(uart0.o)  obj_launchpad/contiki-launchpad-main.o (uart0_active)
+contiki-launchpad.a(adc.o)    obj_launchpad/contiki-launchpad-main.o (adc_init)
+contiki-launchpad.a(pwm.o)    obj_launchpad/contiki-launchpad-main.o (pwm_init)
+contiki-launchpad.a(button.o)
+                              obj_launchpad/contiki-launchpad-main.o (button_init)
+contiki-launchpad.a(msp430.o)
+                              obj_launchpad/contiki-launchpad-main.o (msp430_cpu_init)
+contiki-launchpad.a(clock.o)  contiki-launchpad.a(etimer.o) (clock_time)
+contiki-launchpad.a(minileds.o)
+                              obj_launchpad/contiki-launchpad-main.o (leds_init)
+contiki-launchpad.a(watchdog.o)
+                              obj_launchpad/contiki-launchpad-main.o (watchdog_start)
+contiki-launchpad.a(rtimer-arch.o)
+                              contiki-launchpad.a(rtimer.o) (rtimer_arch_init)
+contiki-launchpad.a(timer.o)  contiki-launchpad.a(etimer.o) (timer_set)
+contiki-launchpad.a(list.o)   contiki-launchpad.a(ctimer.o) (list_init)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+                              contiki-launchpad.a(pwm.o) (__mulhi3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+                              contiki-launchpad.a(pwm.o) (__udivhi3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+                              readadc-poll.co (__addsf3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+                              readadc-poll.co (__mulsf3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+                              readadc-poll.co (__divsf3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+                              /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o) (__thenan_sf)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+                              readadc-poll.co (__floatunsisf)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+                              /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o) (__clzsi2)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+                              /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o) (__pack_f)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+                              /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o) (__unpack_f)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+                              /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o) (__clz_tab)
+/usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+                              readadc-poll.co (printf)
+/usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+                              /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o) (vuprintf)
+/usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+                              obj_launchpad/contiki-launchpad-main.o (puts)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+                              /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o) (__udivsi3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+                              /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o) (__udivdi3)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+                              (_reset_vector__)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__watchdog_support)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__init_stack)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__low_level_init)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__do_copy_data)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__do_clear_bss)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__stop_progExec__)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (_endless_loop__)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+                              /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o (_unexpected_)
+
+Allocating common symbols
+Common symbol       size              file
+
+process_maxevents   0x1               contiki-launchpad.a(process.o)
+spwm                0x4               contiki-launchpad.a(rtimer-arch.o)
+adc_event           0x1               readadc-poll.co
+pwms                0x8               contiki-launchpad.a(pwm.o)
+serial_line_event_message
+                    0x1               contiki-launchpad.a(serial-line.o)
+button_event        0x1               obj_launchpad/contiki-launchpad-main.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .text.crt0     0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .text          0x00000000        0x0 readadc-poll.co
+ .data          0x00000000        0x0 readadc-poll.co
+ .bss           0x00000000        0x0 readadc-poll.co
+ .text          0x00000000        0x0 obj_launchpad/contiki-launchpad-main.o
+ .data          0x00000000        0x0 obj_launchpad/contiki-launchpad-main.o
+ .bss           0x00000000        0x0 obj_launchpad/contiki-launchpad-main.o
+ .text.msp430_request_lpm_dco
+                0x00000000        0xe obj_launchpad/contiki-launchpad-main.o
+ .text.msp430_return_lpm_dco
+                0x00000000        0xe obj_launchpad/contiki-launchpad-main.o
+ .text          0x00000000        0x0 contiki-launchpad.a(process.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(process.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(process.o)
+ .text.process_exit
+                0x00000000        0xa contiki-launchpad.a(process.o)
+ .text.process_is_running
+                0x00000000        0xe contiki-launchpad.a(process.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(autostart.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(autostart.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(autostart.o)
+ .text.autostart_exit
+                0x00000000       0x14 contiki-launchpad.a(autostart.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(serial-line.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(serial-line.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(serial-line.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(etimer.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(etimer.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(etimer.o)
+ .text.etimer_reset
+                0x00000000       0x12 contiki-launchpad.a(etimer.o)
+ .text.etimer_restart
+                0x00000000       0x12 contiki-launchpad.a(etimer.o)
+ .text.etimer_adjust
+                0x00000000       0x1a contiki-launchpad.a(etimer.o)
+ .text.etimer_expiration_time
+                0x00000000       0x14 contiki-launchpad.a(etimer.o)
+ .text.etimer_start_time
+                0x00000000        0x8 contiki-launchpad.a(etimer.o)
+ .text.etimer_stop
+                0x00000000       0x3c contiki-launchpad.a(etimer.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(ctimer.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(ctimer.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(ctimer.o)
+ .text.ctimer_set
+                0x00000000       0x5a contiki-launchpad.a(ctimer.o)
+ .text.ctimer_reset
+                0x00000000       0x3a contiki-launchpad.a(ctimer.o)
+ .text.ctimer_restart
+                0x00000000       0x3a contiki-launchpad.a(ctimer.o)
+ .text.ctimer_stop
+                0x00000000       0x28 contiki-launchpad.a(ctimer.o)
+ .text.ctimer_expired
+                0x00000000       0x32 contiki-launchpad.a(ctimer.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(rtimer.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(rtimer.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(rtimer.o)
+ .text.rtimer_set
+                0x00000000       0x24 contiki-launchpad.a(rtimer.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(ringbuf.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(ringbuf.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(ringbuf.o)
+ .text.ringbuf_size
+                0x00000000        0x8 contiki-launchpad.a(ringbuf.o)
+ .text.ringbuf_elements
+                0x00000000       0x12 contiki-launchpad.a(ringbuf.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(uart0.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(uart0.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(uart0.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(adc.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(adc.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(adc.o)
+ .text.adc_stop
+                0x00000000       0x16 contiki-launchpad.a(adc.o)
+ .text.adc_get_noblock
+                0x00000000       0x58 contiki-launchpad.a(adc.o)
+ .text.adc_get  0x00000000       0x5e contiki-launchpad.a(adc.o)
+ .text.adc_get_event
+                0x00000000       0x5c contiki-launchpad.a(adc.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(pwm.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(pwm.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(pwm.o)
+ .text.pwm_on   0x00000000      0x10c contiki-launchpad.a(pwm.o)
+ .text.pwm_pulsetime
+                0x00000000       0x3c contiki-launchpad.a(pwm.o)
+ .text.pwm_period
+                0x00000000        0x6 contiki-launchpad.a(pwm.o)
+ .text.pwm_off  0x00000000       0x48 contiki-launchpad.a(pwm.o)
+ .text.pwm_dc   0x00000000       0x14 contiki-launchpad.a(pwm.o)
+ .text.pwm_all_off
+                0x00000000       0x5e contiki-launchpad.a(pwm.o)
+ .text.pwm_confpin
+                0x00000000       0x38 contiki-launchpad.a(pwm.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(button.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(button.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(button.o)
+ .text.button_pressed
+                0x00000000        0x8 contiki-launchpad.a(button.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(msp430.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(msp430.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(msp430.o)
+ .text.w_memcpy
+                0x00000000       0x12 contiki-launchpad.a(msp430.o)
+ .text.w_memset
+                0x00000000       0x12 contiki-launchpad.a(msp430.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(clock.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(clock.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(clock.o)
+ .text.clock_set
+                0x00000000       0x16 contiki-launchpad.a(clock.o)
+ .text.clock_fine_max
+                0x00000000        0x6 contiki-launchpad.a(clock.o)
+ .text.clock_fine
+                0x00000000        0xc contiki-launchpad.a(clock.o)
+ .text.clock_delay
+                0x00000000        0xc contiki-launchpad.a(clock.o)
+ .text.clock_wait
+                0x00000000       0x34 contiki-launchpad.a(clock.o)
+ .text.clock_set_seconds
+                0x00000000       0x1c contiki-launchpad.a(clock.o)
+ .text.clock_seconds
+                0x00000000       0x1a contiki-launchpad.a(clock.o)
+ .text.clock_counter
+                0x00000000        0xe contiki-launchpad.a(clock.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(minileds.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(minileds.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(minileds.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(watchdog.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(watchdog.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(watchdog.o)
+ .text.watchdog_reboot
+                0x00000000        0x6 contiki-launchpad.a(watchdog.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(rtimer-arch.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(rtimer-arch.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(rtimer-arch.o)
+ .text.rtimer_arch_now
+                0x00000000       0x20 contiki-launchpad.a(rtimer-arch.o)
+ .text.simple_pwm_confpin
+                0x00000000       0x3c contiki-launchpad.a(rtimer-arch.o)
+ .text.simple_pwm_on
+                0x00000000       0x92 contiki-launchpad.a(rtimer-arch.o)
+ .text.simple_pwm_pulsetime
+                0x00000000       0x74 contiki-launchpad.a(rtimer-arch.o)
+ .text.simple_pwm_off
+                0x00000000       0x26 contiki-launchpad.a(rtimer-arch.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(timer.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(timer.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(timer.o)
+ .text.timer_reset
+                0x00000000        0xe contiki-launchpad.a(timer.o)
+ .text.timer_restart
+                0x00000000       0x14 contiki-launchpad.a(timer.o)
+ .text.timer_remaining
+                0x00000000       0x28 contiki-launchpad.a(timer.o)
+ .text          0x00000000        0x0 contiki-launchpad.a(list.o)
+ .data          0x00000000        0x0 contiki-launchpad.a(list.o)
+ .bss           0x00000000        0x0 contiki-launchpad.a(list.o)
+ .text.list_copy
+                0x00000000        0x6 contiki-launchpad.a(list.o)
+ .text.list_tail
+                0x00000000       0x12 contiki-launchpad.a(list.o)
+ .text.list_chop
+                0x00000000       0x24 contiki-launchpad.a(list.o)
+ .text.list_pop
+                0x00000000        0xe contiki-launchpad.a(list.o)
+ .text.list_push
+                0x00000000       0x1a contiki-launchpad.a(list.o)
+ .text.list_add
+                0x00000000       0x2a contiki-launchpad.a(list.o)
+ .text.list_length
+                0x00000000       0x10 contiki-launchpad.a(list.o)
+ .text.list_insert
+                0x00000000       0x16 contiki-launchpad.a(list.o)
+ .text.list_item_next
+                0x00000000        0xc contiki-launchpad.a(list.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .text.libgcc   0x00000000       0x18 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sfr              0x00000000         0x00000010
+peripheral_8bit  0x00000010         0x000000f0
+peripheral_16bit 0x00000100         0x00000100
+ram              0x00000200         0x00000200         xw
+infomem          0x00001000         0x00000100
+infod            0x00001000         0x00000040
+infoc            0x00001040         0x00000040
+infob            0x00001080         0x00000040
+infoa            0x000010c0         0x00000040
+rom              0x0000c000         0x00003fe0         xr
+vectors          0x0000ffe0         0x00000020
+bsl              0x00000000         0x00000000
+ram2             0x00000000         0x00000000         xw
+ram_mirror       0x00000000         0x00000000         xw
+usbram           0x00000000         0x00000000         xw
+far_rom          0x00000000         0x00000000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+LOAD readadc-poll.co
+LOAD obj_launchpad/contiki-launchpad-main.o
+LOAD contiki-launchpad.a
+LOAD /usr/lib/gcc/msp430/4.6.3/libgcc.a
+LOAD /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a
+LOAD /usr/lib/gcc/msp430/4.6.3/libgcc.a
+LOAD /usr/lib/gcc/msp430/4.6.3/libcrt0.a
+                0x00000040                PROVIDE (__info_segment_size, 0x40)
+                0x00001000                PROVIDE (__infod, 0x1000)
+                0x00001040                PROVIDE (__infoc, 0x1040)
+                0x00001080                PROVIDE (__infob, 0x1080)
+                0x000010c0                PROVIDE (__infoa, 0x10c0)
+                0x00000000                __IE1 = 0x0
+                0x00000002                __IFG1 = 0x2
+                0x00000001                __IE2 = 0x1
+                0x00000003                __IFG2 = 0x3
+                0x00000048                __ADC10DTC0 = 0x48
+                0x00000049                __ADC10DTC1 = 0x49
+                0x0000004a                __ADC10AE0 = 0x4a
+                0x000001b0                __ADC10CTL0 = 0x1b0
+                0x000001b2                __ADC10CTL1 = 0x1b2
+                0x000001b4                __ADC10MEM = 0x1b4
+                0x000001bc                __ADC10SA = 0x1bc
+                0x00000056                __DCOCTL = 0x56
+                0x00000057                __BCSCTL1 = 0x57
+                0x00000058                __BCSCTL2 = 0x58
+                0x00000053                __BCSCTL3 = 0x53
+                0x00000059                __CACTL1 = 0x59
+                0x0000005a                __CACTL2 = 0x5a
+                0x0000005b                __CAPD = 0x5b
+                0x00000128                __FCTL1 = 0x128
+                0x0000012a                __FCTL2 = 0x12a
+                0x0000012c                __FCTL3 = 0x12c
+                0x00000020                __P1IN = 0x20
+                0x00000021                __P1OUT = 0x21
+                0x00000022                __P1DIR = 0x22
+                0x00000023                __P1IFG = 0x23
+                0x00000024                __P1IES = 0x24
+                0x00000025                __P1IE = 0x25
+                0x00000026                __P1SEL = 0x26
+                0x00000041                __P1SEL2 = 0x41
+                0x00000027                __P1REN = 0x27
+                0x00000028                __P2IN = 0x28
+                0x00000029                __P2OUT = 0x29
+                0x0000002a                __P2DIR = 0x2a
+                0x0000002b                __P2IFG = 0x2b
+                0x0000002c                __P2IES = 0x2c
+                0x0000002d                __P2IE = 0x2d
+                0x0000002e                __P2SEL = 0x2e
+                0x00000042                __P2SEL2 = 0x42
+                0x0000002f                __P2REN = 0x2f
+                0x00000018                __P3IN = 0x18
+                0x00000019                __P3OUT = 0x19
+                0x0000001a                __P3DIR = 0x1a
+                0x0000001b                __P3SEL = 0x1b
+                0x00000043                __P3SEL2 = 0x43
+                0x00000010                __P3REN = 0x10
+                0x0000012e                __TA0IV = 0x12e
+                0x00000160                __TA0CTL = 0x160
+                0x00000162                __TA0CCTL0 = 0x162
+                0x00000164                __TA0CCTL1 = 0x164
+                0x00000166                __TA0CCTL2 = 0x166
+                0x00000170                __TA0R = 0x170
+                0x00000172                __TA0CCR0 = 0x172
+                0x00000174                __TA0CCR1 = 0x174
+                0x00000176                __TA0CCR2 = 0x176
+                0x0000011e                __TA1IV = 0x11e
+                0x00000180                __TA1CTL = 0x180
+                0x00000182                __TA1CCTL0 = 0x182
+                0x00000184                __TA1CCTL1 = 0x184
+                0x00000186                __TA1CCTL2 = 0x186
+                0x00000190                __TA1R = 0x190
+                0x00000192                __TA1CCR0 = 0x192
+                0x00000194                __TA1CCR1 = 0x194
+                0x00000196                __TA1CCR2 = 0x196
+                0x00000060                __UCA0CTL0 = 0x60
+                0x00000061                __UCA0CTL1 = 0x61
+                0x00000062                __UCA0BR0 = 0x62
+                0x00000063                __UCA0BR1 = 0x63
+                0x00000064                __UCA0MCTL = 0x64
+                0x00000065                __UCA0STAT = 0x65
+                0x00000066                __UCA0RXBUF = 0x66
+                0x00000067                __UCA0TXBUF = 0x67
+                0x0000005d                __UCA0ABCTL = 0x5d
+                0x0000005e                __UCA0IRTCTL = 0x5e
+                0x0000005f                __UCA0IRRCTL = 0x5f
+                0x00000068                __UCB0CTL0 = 0x68
+                0x00000069                __UCB0CTL1 = 0x69
+                0x0000006a                __UCB0BR0 = 0x6a
+                0x0000006b                __UCB0BR1 = 0x6b
+                0x0000006c                __UCB0I2CIE = 0x6c
+                0x0000006d                __UCB0STAT = 0x6d
+                0x0000006e                __UCB0RXBUF = 0x6e
+                0x0000006f                __UCB0TXBUF = 0x6f
+                0x00000118                __UCB0I2COA = 0x118
+                0x0000011a                __UCB0I2CSA = 0x11a
+                0x00000120                __WDTCTL = 0x120
+                0x000010f8                __CALDCO_16MHZ = 0x10f8
+                0x000010f9                __CALBC1_16MHZ = 0x10f9
+                0x000010fa                __CALDCO_12MHZ = 0x10fa
+                0x000010fb                __CALBC1_12MHZ = 0x10fb
+                0x000010fc                __CALDCO_8MHZ = 0x10fc
+                0x000010fd                __CALBC1_8MHZ = 0x10fd
+                0x000010fe                __CALDCO_1MHZ = 0x10fe
+                0x000010ff                __CALBC1_1MHZ = 0x10ff
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000c000     0x24ba
+                0x0000c000                . = ALIGN (0x2)
+ *(.init .init.*)
+ *(.init0)
+ .init0         0x0000c000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+                0x0000c000                _reset_vector__
+ *(.init1)
+ .init1         0x0000c000        0xc /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+                0x0000c000                __watchdog_support
+ *(.init2)
+ .init2         0x0000c00c        0x4 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+                0x0000c00c                __init_stack
+ *(.init3)
+ .init3         0x0000c010        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+                0x0000c010                __low_level_init
+ *(.init4)
+ .init4         0x0000c010       0x18 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+                0x0000c010                __do_copy_data
+ .init4         0x0000c028       0x16 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+                0x0000c028                __do_clear_bss
+ *(.init5)
+ *(.init6)
+ *(.init7)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000c03e       0xa4 obj_launchpad/contiki-launchpad-main.o
+                0x0000c03e                main
+ *(.fini9)
+ .fini9         0x0000c0e2        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+                0x0000c0e2                __stop_progExec__
+ *(.fini8)
+ *(.fini7)
+ *(.fini6)
+ *(.fini5)
+ *(.fini4)
+ *(.fini3)
+ *(.fini2)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000c0e2        0x6 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+                0x0000c0e2                _endless_loop__
+ *(.fini .fini.*)
+                0x0000c0e8                . = ALIGN (0x2)
+                0x0000c0e8                __ctors_start = .
+ *(.ctors)
+                0x0000c0e8                __ctors_end = .
+                0x0000c0e8                __dtors_start = .
+ *(.dtors)
+                0x0000c0e8                __dtors_end = .
+                0x0000c0e8                . = ALIGN (0x2)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x0000c0e8        0x4 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+                0x0000c0e8                __isr_14
+                0x0000c0e8                __isr_4
+                0x0000c0e8                __isr_11
+                0x0000c0e8                __isr_0
+                0x0000c0e8                __isr_3
+                0x0000c0e8                __isr_6
+                0x0000c0e8                __isr_1
+ .text.process_thread_adc_reading_process
+                0x0000c0ec       0xe4 readadc-poll.co
+ .text.call_process
+                0x0000c1d0       0x4a contiki-launchpad.a(process.o)
+ .text.exit_process
+                0x0000c21a       0x96 contiki-launchpad.a(process.o)
+ .text.do_poll  0x0000c2b0       0x30 contiki-launchpad.a(process.o)
+ .text.process_alloc_event
+                0x0000c2e0        0xe contiki-launchpad.a(process.o)
+                0x0000c2e0                process_alloc_event
+ .text.process_init
+                0x0000c2ee       0x1c contiki-launchpad.a(process.o)
+                0x0000c2ee                process_init
+ .text.process_run
+                0x0000c30a       0xa2 contiki-launchpad.a(process.o)
+                0x0000c30a                process_run
+ .text.process_nevents
+                0x0000c3ac        0xe contiki-launchpad.a(process.o)
+                0x0000c3ac                process_nevents
+ .text.process_post
+                0x0000c3ba       0x54 contiki-launchpad.a(process.o)
+                0x0000c3ba                process_post
+ .text.process_post_synch
+                0x0000c40e       0x12 contiki-launchpad.a(process.o)
+                0x0000c40e                process_post_synch
+ .text.process_start
+                0x0000c420       0x32 contiki-launchpad.a(process.o)
+                0x0000c420                process_start
+ .text.process_poll
+                0x0000c452       0x18 contiki-launchpad.a(process.o)
+                0x0000c452                process_poll
+ .text.autostart_start
+                0x0000c46a       0x16 contiki-launchpad.a(autostart.o)
+                0x0000c46a                autostart_start
+ .text.process_thread_serial_line_process
+                0x0000c480       0x9c contiki-launchpad.a(serial-line.o)
+ .text.serial_line_input_byte
+                0x0000c51c       0x4a contiki-launchpad.a(serial-line.o)
+                0x0000c51c                serial_line_input_byte
+ .text.serial_line_init
+                0x0000c566       0x1c contiki-launchpad.a(serial-line.o)
+                0x0000c566                serial_line_init
+ .text.update_time
+                0x0000c582       0x78 contiki-launchpad.a(etimer.o)
+ .text.etimer_request_poll
+                0x0000c5fa        0xa contiki-launchpad.a(etimer.o)
+                0x0000c5fa                etimer_request_poll
+ .text.process_thread_etimer_process
+                0x0000c604       0xc8 contiki-launchpad.a(etimer.o)
+ .text.add_timer
+                0x0000c6cc       0x38 contiki-launchpad.a(etimer.o)
+ .text.etimer_set
+                0x0000c704       0x12 contiki-launchpad.a(etimer.o)
+                0x0000c704                etimer_set
+ .text.etimer_expired
+                0x0000c716        0xe contiki-launchpad.a(etimer.o)
+                0x0000c716                etimer_expired
+ .text.etimer_pending
+                0x0000c724        0xc contiki-launchpad.a(etimer.o)
+                0x0000c724                etimer_pending
+ .text.etimer_next_expiration_time
+                0x0000c730       0x16 contiki-launchpad.a(etimer.o)
+                0x0000c730                etimer_next_expiration_time
+ .text.process_thread_ctimer_process
+                0x0000c746       0xa4 contiki-launchpad.a(ctimer.o)
+ .text.ctimer_init
+                0x0000c7ea       0x18 contiki-launchpad.a(ctimer.o)
+                0x0000c7ea                ctimer_init
+ .text.rtimer_init
+                0x0000c802        0x6 contiki-launchpad.a(rtimer.o)
+                0x0000c802                rtimer_init
+ .text.rtimer_run_next
+                0x0000c808       0x26 contiki-launchpad.a(rtimer.o)
+                0x0000c808                rtimer_run_next
+ .text.ringbuf_init
+                0x0000c82e       0x14 contiki-launchpad.a(ringbuf.o)
+                0x0000c82e                ringbuf_init
+ .text.ringbuf_put
+                0x0000c842       0x38 contiki-launchpad.a(ringbuf.o)
+                0x0000c842                ringbuf_put
+ .text.ringbuf_get
+                0x0000c87a       0x32 contiki-launchpad.a(ringbuf.o)
+                0x0000c87a                ringbuf_get
+ .text.uart0_active
+                0x0000c8ac       0x16 contiki-launchpad.a(uart0.o)
+                0x0000c8ac                uart0_active
+ .text.uart0_set_input
+                0x0000c8c2        0x6 contiki-launchpad.a(uart0.o)
+                0x0000c8c2                uart0_set_input
+ .text.uart0_writeb
+                0x0000c8c8       0x18 contiki-launchpad.a(uart0.o)
+                0x0000c8c8                uart0_writeb
+ .text.putchar  0x0000c8e0       0x10 contiki-launchpad.a(uart0.o)
+                0x0000c8e0                putchar
+ .text.uart0_init
+                0x0000c8f0       0x3e contiki-launchpad.a(uart0.o)
+                0x0000c8f0                uart0_init
+ .text.uartA0B0_rx_interrupt
+                0x0000c92e       0x38 contiki-launchpad.a(uart0.o)
+                0x0000c92e                __isr_7
+                0x0000c92e                uartA0B0_rx_interrupt
+ .text.init_pininput
+                0x0000c966       0x20 contiki-launchpad.a(adc.o)
+ .text.adc_init
+                0x0000c986       0x16 contiki-launchpad.a(adc.o)
+                0x0000c986                adc_init
+ .text.adc_busy
+                0x0000c99c       0x14 contiki-launchpad.a(adc.o)
+                0x0000c99c                adc_busy
+ .text.adc_get_poll
+                0x0000c9b0       0x5c contiki-launchpad.a(adc.o)
+                0x0000c9b0                adc_get_poll
+ .text.adc10_interrupt
+                0x0000ca0c       0x6e contiki-launchpad.a(adc.o)
+                0x0000ca0c                __isr_5
+                0x0000ca0c                adc10_interrupt
+ .text.pwm_init
+                0x0000ca7a       0x44 contiki-launchpad.a(pwm.o)
+                0x0000ca7a                pwm_init
+ .text.pwm_periodstart_ta1ccr0_isr
+                0x0000cabe       0x6c contiki-launchpad.a(pwm.o)
+                0x0000cabe                pwm_periodstart_ta1ccr0_isr
+                0x0000cabe                __isr_13
+ .text.pwm_ccrmatch_ta1ccrX_isr
+                0x0000cb2a       0x78 contiki-launchpad.a(pwm.o)
+                0x0000cb2a                __isr_12
+                0x0000cb2a                pwm_ccrmatch_ta1ccrX_isr
+ .text.button_init
+                0x0000cba2       0x40 contiki-launchpad.a(button.o)
+                0x0000cba2                button_init
+ .text.button_interrupt
+                0x0000cbe2       0x5a contiki-launchpad.a(button.o)
+                0x0000cbe2                __isr_2
+                0x0000cbe2                button_interrupt
+ .text.msp430_init_dco
+                0x0000cc3c       0x2c contiki-launchpad.a(msp430.o)
+                0x0000cc3c                msp430_init_dco
+ .text.msp430_cpu_init
+                0x0000cc68       0x3e contiki-launchpad.a(msp430.o)
+                0x0000cc68                msp430_cpu_init
+ .text.clock_time
+                0x0000cca6       0x1a contiki-launchpad.a(clock.o)
+                0x0000cca6                clock_time
+ .text.timera0_interrupt
+                0x0000ccc0       0xb0 contiki-launchpad.a(clock.o)
+                0x0000ccc0                timera0_interrupt
+                0x0000ccc0                __isr_9
+ .text.clock_init
+                0x0000cd70       0x28 contiki-launchpad.a(clock.o)
+                0x0000cd70                clock_init
+ .text.leds_init
+                0x0000cd98       0x20 contiki-launchpad.a(minileds.o)
+                0x0000cd98                leds_init
+ .text.leds_on  0x0000cdb8       0x18 contiki-launchpad.a(minileds.o)
+                0x0000cdb8                leds_on
+ .text.leds_off
+                0x0000cdd0       0x1a contiki-launchpad.a(minileds.o)
+                0x0000cdd0                leds_off
+ .text.leds_toggle
+                0x0000cdea       0x42 contiki-launchpad.a(minileds.o)
+                0x0000cdea                leds_toggle
+ .text.watchdog_interrupt
+                0x0000ce2c        0x6 contiki-launchpad.a(watchdog.o)
+                0x0000ce2c                __isr_10
+                0x0000ce2c                watchdog_interrupt
+ .text.watchdog_start
+                0x0000ce32       0x14 contiki-launchpad.a(watchdog.o)
+                0x0000ce32                watchdog_start
+ .text.watchdog_periodic
+                0x0000ce46       0x12 contiki-launchpad.a(watchdog.o)
+                0x0000ce46                watchdog_periodic
+ .text.watchdog_stop
+                0x0000ce58       0x16 contiki-launchpad.a(watchdog.o)
+                0x0000ce58                watchdog_stop
+ .text.watchdog_init
+                0x0000ce6e       0x14 contiki-launchpad.a(watchdog.o)
+                0x0000ce6e                watchdog_init
+ .text.rtimer_a01_isr
+                0x0000ce82       0xce contiki-launchpad.a(rtimer-arch.o)
+                0x0000ce82                rtimer_a01_isr
+                0x0000ce82                __isr_8
+ .text.rtimer_arch_init
+                0x0000cf50       0x14 contiki-launchpad.a(rtimer-arch.o)
+                0x0000cf50                rtimer_arch_init
+ .text.rtimer_arch_schedule
+                0x0000cf64        0x6 contiki-launchpad.a(rtimer-arch.o)
+                0x0000cf64                rtimer_arch_schedule
+ .text.timer_set
+                0x0000cf6a       0x1c contiki-launchpad.a(timer.o)
+                0x0000cf6a                timer_set
+ .text.timer_expired
+                0x0000cf86       0x2a contiki-launchpad.a(timer.o)
+                0x0000cf86                timer_expired
+ .text.list_init
+                0x0000cfb0        0x6 contiki-launchpad.a(list.o)
+                0x0000cfb0                list_init
+ .text.list_head
+                0x0000cfb6        0x4 contiki-launchpad.a(list.o)
+                0x0000cfb6                list_head
+ .text.list_remove
+                0x0000cfba       0x34 contiki-launchpad.a(list.o)
+                0x0000cfba                list_remove
+ .text.libgcc   0x0000cfee       0x22 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+                0x0000cfee                __udivhi3
+                0x0000cfee                __ext_udivmod16
+                0x0000d008                __umodhi3
+ .text          0x0000d010      0x32e /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+                0x0000d2a2                __addsf3
+                0x0000d2ee                __subsf3
+ .text          0x0000d33e      0x224 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+                0x0000d33e                __mulsf3
+ .text          0x0000d562      0x150 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+                0x0000d562                __divsf3
+ .text          0x0000d6b2       0xe2 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+                0x0000d6b2                __floatunsisf
+ .text          0x0000d794       0x72 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+                0x0000d794                __clzsi2
+ .text          0x0000d806      0x1de /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+                0x0000d806                __pack_f
+ .text          0x0000d9e4      0x124 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+                0x0000d9e4                __unpack_f
+ .text          0x0000db08       0x1e /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+                0x0000db08                printf
+                0x0000db18                vprintf
+ .text          0x0000db26      0x836 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+                0x0000dcbe                vuprintf
+ .text          0x0000e35c       0x2c /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+                0x0000e35c                puts
+ .text.libgcc   0x0000e388       0x40 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+                0x0000e388                __udivsi3
+                0x0000e388                __ext_udivmod32
+                0x0000e3be                __umodsi3
+ .text.libgcc   0x0000e3c8       0xf0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+                0x0000e3c8                __xabi_udivmod64
+                0x0000e426                __udivdi3
+                0x0000e44c                __umoddi3
+                0x0000e47a                __udivmoddi4
+ .text.crt0     0x0000e4b8        0x2 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+                0x0000e4b8                _unexpected_
+                0x0000e4ba                . = ALIGN (0x2)
+
+.rodata         0x0000e4ba      0x16a
+                0x0000e4ba                . = ALIGN (0x2)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.process_thread_adc_reading_process
+                0x0000e4ba        0x4 readadc-poll.co
+ .rodata.autostart_processes
+                0x0000e4be        0x4 readadc-poll.co
+                0x0000e4be                autostart_processes
+ .rodata        0x0000e4c2       0x14 readadc-poll.co
+ .rodata        0x0000e4d6       0x15 obj_launchpad/contiki-launchpad-main.o
+ .rodata        0x0000e4eb        0xe contiki-launchpad.a(serial-line.o)
+ .rodata        0x0000e4f9        0xc contiki-launchpad.a(etimer.o)
+ .rodata        0x0000e505        0xf contiki-launchpad.a(ctimer.o)
+ .rodata        0x0000e514        0x8 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+                0x0000e514                __thenan_sf
+ .rodata        0x0000e51c      0x100 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+                0x0000e51c                __clz_tab
+ .rodata        0x0000e61c        0x7 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+                0x0000e624                . = ALIGN (0x2)
+ *fill*         0x0000e623        0x1 00
+                0x0000e624                _etext = .
+
+.data           0x00000200       0x2c load address 0x0000e624
+                0x00000200                . = ALIGN (0x2)
+                0x00000200                PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.adc_reading_process
+                0x00000200        0xa readadc-poll.co
+                0x00000200                adc_reading_process
+ .data.serial_line_process
+                0x0000020a        0xa contiki-launchpad.a(serial-line.o)
+                0x0000020a                serial_line_process
+ .data.etimer_process
+                0x00000214        0xa contiki-launchpad.a(etimer.o)
+                0x00000214                etimer_process
+ .data.ctimer_process
+                0x0000021e        0xa contiki-launchpad.a(ctimer.o)
+                0x0000021e                ctimer_process
+ .data.period   0x00000228        0x2 contiki-launchpad.a(pwm.o)
+ .data.cur_break
+                0x0000022a        0x2 contiki-launchpad.a(msp430.o)
+                0x0000022c                . = ALIGN (0x2)
+                0x0000022c                _edata = .
+                0x0000e624                PROVIDE (__data_load_start, LOADADDR (.data))
+                0x0000002c                PROVIDE (__data_size, SIZEOF (.data))
+
+.bss            0x0000022c       0xba load address 0x0000e650
+                0x0000022c                PROVIDE (__bss_start, .)
+ *(.bss .bss.*)
+ .bss.adcval    0x0000022c        0x2 readadc-poll.co
+ .bss.et        0x0000022e        0xc readadc-poll.co
+ .bss.dcoreq    0x0000023a        0x1 obj_launchpad/contiki-launchpad-main.o
+ .bss.poll_requested
+                0x0000023b        0x1 contiki-launchpad.a(process.o)
+ .bss.process_current
+                0x0000023c        0x2 contiki-launchpad.a(process.o)
+                0x0000023c                process_current
+ .bss.process_list
+                0x0000023e        0x2 contiki-launchpad.a(process.o)
+                0x0000023e                process_list
+ .bss.lastevent
+                0x00000240        0x1 contiki-launchpad.a(process.o)
+ .bss.fevent    0x00000241        0x1 contiki-launchpad.a(process.o)
+ .bss.nevents   0x00000242        0x1 contiki-launchpad.a(process.o)
+ *fill*         0x00000243        0x1 00
+ .bss.events    0x00000244       0x30 contiki-launchpad.a(process.o)
+ .bss.ev.1739   0x00000274        0x1 contiki-launchpad.a(process.o)
+ *fill*         0x00000275        0x1 00
+ .bss.data.1740
+                0x00000276        0x2 contiki-launchpad.a(process.o)
+ .bss.receiver.1741
+                0x00000278        0x2 contiki-launchpad.a(process.o)
+ .bss.p.1742    0x0000027a        0x2 contiki-launchpad.a(process.o)
+ .bss.snum.1757
+                0x0000027c        0x1 contiki-launchpad.a(process.o)
+ .bss.overflow.1814
+                0x0000027d        0x1 contiki-launchpad.a(serial-line.o)
+ .bss.rxbuf     0x0000027e        0x6 contiki-launchpad.a(serial-line.o)
+ .bss.ptr.1821  0x00000284        0x2 contiki-launchpad.a(serial-line.o)
+ .bss.buf.1820  0x00000286       0x10 contiki-launchpad.a(serial-line.o)
+ .bss.rxbuf_data
+                0x00000296       0x10 contiki-launchpad.a(serial-line.o)
+ .bss.timerlist
+                0x000002a6        0x2 contiki-launchpad.a(etimer.o)
+ .bss.next_expiration
+                0x000002a8        0x4 contiki-launchpad.a(etimer.o)
+ .bss.initialized
+                0x000002ac        0x1 contiki-launchpad.a(ctimer.o)
+ *fill*         0x000002ad        0x1 00
+ .bss.ctimer_list_list
+                0x000002ae        0x2 contiki-launchpad.a(ctimer.o)
+ .bss.next_rtimer
+                0x000002b0        0x2 contiki-launchpad.a(rtimer.o)
+ .bss.transmitting
+                0x000002b2        0x1 contiki-launchpad.a(uart0.o)
+ .bss.rx_in_progress
+                0x000002b3        0x1 contiki-launchpad.a(uart0.o)
+ .bss.uart0_input_handler
+                0x000002b4        0x2 contiki-launchpad.a(uart0.o)
+ .bss.calling_process
+                0x000002b6        0x2 contiki-launchpad.a(adc.o)
+                0x000002b6                calling_process
+ .bss.dest      0x000002b8        0x2 contiki-launchpad.a(adc.o)
+ .bss.state     0x000002ba        0x1 contiki-launchpad.a(adc.o)
+ *fill*         0x000002bb        0x1 00
+ .bss.adcbuf    0x000002bc        0x2 contiki-launchpad.a(adc.o)
+ .bss.btnp      0x000002be        0x1 contiki-launchpad.a(button.o)
+                0x000002be                btnp
+ *fill*         0x000002bf        0x1 00
+ .bss.debouncetimer
+                0x000002c0        0x8 contiki-launchpad.a(button.o)
+ .bss.last_tar  0x000002c8        0x2 contiki-launchpad.a(clock.o)
+ .bss.count     0x000002ca        0x4 contiki-launchpad.a(clock.o)
+ .bss.seconds   0x000002ce        0x4 contiki-launchpad.a(clock.o)
+ .bss.counter   0x000002d2        0x2 contiki-launchpad.a(watchdog.o)
+ .bss.period_end
+                0x000002d4        0x1 contiki-launchpad.a(rtimer-arch.o)
+ *(COMMON)
+ COMMON         0x000002d5        0x1 readadc-poll.co
+                0x000002d5                adc_event
+ COMMON         0x000002d6        0x1 obj_launchpad/contiki-launchpad-main.o
+                0x000002d6                button_event
+ COMMON         0x000002d7        0x1 contiki-launchpad.a(process.o)
+                0x000002d7                process_maxevents
+ COMMON         0x000002d8        0x1 contiki-launchpad.a(serial-line.o)
+                0x000002d8                serial_line_event_message
+ *fill*         0x000002d9        0x1 00
+ COMMON         0x000002da        0x8 contiki-launchpad.a(pwm.o)
+                0x000002da                pwms
+ COMMON         0x000002e2        0x4 contiki-launchpad.a(rtimer-arch.o)
+                0x000002e2                spwm
+                0x000002e6                . = ALIGN (0x2)
+                0x000002e6                PROVIDE (__bss_end, .)
+                0x000000ba                PROVIDE (__bss_size, SIZEOF (.bss))
+
+.noinit         0x000002e6        0x2 load address 0x0000e650
+                0x000002e6                PROVIDE (__noinit_start, .)
+ *(.noinit .noinit.*)
+ .noinit.crt0   0x000002e6        0x2 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+                0x000002e6                __wdt_clear_value
+                0x000002e8                . = ALIGN (0x2)
+                0x000002e8                PROVIDE (__noinit_end, .)
+                0x000002e8                . = ALIGN (0x2)
+                0x000002e8                _end = .
+
+.infomem        0x00001000        0x0
+ *(.infomem)
+                0x00001000                . = ALIGN (0x2)
+ *(.infomem.*)
+
+.infomemnobits  0x00001000        0x0
+ *(.infomemnobits)
+                0x00001000                . = ALIGN (0x2)
+ *(.infomemnobits.*)
+
+.infoa
+ *(.infoa .infoa.*)
+
+.infob
+ *(.infob .infob.*)
+
+.infoc
+ *(.infoc .infoc.*)
+
+.infod
+ *(.infod .infod.*)
+
+.vectors        0x0000ffe0       0x20
+                0x0000ffe0                PROVIDE (__vectors_start, .)
+ *(.vectors*)
+ .vectors       0x0000ffe0       0x20 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+                0x0000ffe0                __ivtbl_16
+                0x00010000                _vectors_end = .
+
+.fartext        0x00000000        0x0
+                0x00000000                . = ALIGN (0x2)
+ *(.fartext)
+                0x00000000                . = ALIGN (0x2)
+ *(.fartext.*)
+                0x00000000                _efartext = .
+
+.profiler
+ *(.profiler)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x4d4
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x14 readadc-poll.co
+ .debug_aranges
+                0x00000014       0x1c obj_launchpad/contiki-launchpad-main.o
+ .debug_aranges
+                0x00000030       0x44 contiki-launchpad.a(process.o)
+ .debug_aranges
+                0x00000074       0x18 contiki-launchpad.a(autostart.o)
+ .debug_aranges
+                0x0000008c       0x1c contiki-launchpad.a(serial-line.o)
+ .debug_aranges
+                0x000000a8       0x48 contiki-launchpad.a(etimer.o)
+ .debug_aranges
+                0x000000f0       0x2c contiki-launchpad.a(ctimer.o)
+ .debug_aranges
+                0x0000011c       0x1c contiki-launchpad.a(rtimer.o)
+ .debug_aranges
+                0x00000138       0x24 contiki-launchpad.a(ringbuf.o)
+ .debug_aranges
+                0x0000015c       0x28 contiki-launchpad.a(uart0.o)
+ .debug_aranges
+                0x00000184       0x34 contiki-launchpad.a(adc.o)
+ .debug_aranges
+                0x000001b8       0x38 contiki-launchpad.a(pwm.o)
+ .debug_aranges
+                0x000001f0       0x1c contiki-launchpad.a(button.o)
+ .debug_aranges
+                0x0000020c       0x20 contiki-launchpad.a(msp430.o)
+ .debug_aranges
+                0x0000022c       0x3c contiki-launchpad.a(clock.o)
+ .debug_aranges
+                0x00000268       0x20 contiki-launchpad.a(minileds.o)
+ .debug_aranges
+                0x00000288       0x28 contiki-launchpad.a(watchdog.o)
+ .debug_aranges
+                0x000002b0       0x30 contiki-launchpad.a(rtimer-arch.o)
+ .debug_aranges
+                0x000002e0       0x24 contiki-launchpad.a(timer.o)
+ .debug_aranges
+                0x00000304       0x40 contiki-launchpad.a(list.o)
+ .debug_aranges
+                0x00000344       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .debug_aranges
+                0x00000358       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .debug_aranges
+                0x0000036c       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000380       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000394       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x000003a8       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x000003bc       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x000003d0       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x000003e4       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x000003f8       0x14 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+ .debug_aranges
+                0x0000040c       0x14 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+ .debug_aranges
+                0x00000420       0x14 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+ .debug_aranges
+                0x00000434       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .debug_aranges
+                0x00000448       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .debug_aranges
+                0x0000045c       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .debug_aranges
+                0x00000470       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .debug_aranges
+                0x00000484       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .debug_aranges
+                0x00000498       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .debug_aranges
+                0x000004ac       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .debug_aranges
+                0x000004c0       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x5a00
+ *(.debug_info)
+ .debug_info    0x00000000      0x310 readadc-poll.co
+ .debug_info    0x00000310      0x2a8 obj_launchpad/contiki-launchpad-main.o
+ .debug_info    0x000005b8      0x543 contiki-launchpad.a(process.o)
+ .debug_info    0x00000afb      0x1b1 contiki-launchpad.a(autostart.o)
+ .debug_info    0x00000cac      0x2d8 contiki-launchpad.a(serial-line.o)
+ .debug_info    0x00000f84      0x4ae contiki-launchpad.a(etimer.o)
+ .debug_info    0x00001432      0x431 contiki-launchpad.a(ctimer.o)
+ .debug_info    0x00001863      0x1ac contiki-launchpad.a(rtimer.o)
+ .debug_info    0x00001a0f      0x1b4 contiki-launchpad.a(ringbuf.o)
+ .debug_info    0x00001bc3      0x254 contiki-launchpad.a(uart0.o)
+ .debug_info    0x00001e17      0x3ff contiki-launchpad.a(adc.o)
+ .debug_info    0x00002216      0x35c contiki-launchpad.a(pwm.o)
+ .debug_info    0x00002572      0x1a2 contiki-launchpad.a(button.o)
+ .debug_info    0x00002714      0x2b6 contiki-launchpad.a(msp430.o)
+ .debug_info    0x000029ca      0x2d0 contiki-launchpad.a(clock.o)
+ .debug_info    0x00002c9a      0x147 contiki-launchpad.a(minileds.o)
+ .debug_info    0x00002de1      0x12f contiki-launchpad.a(watchdog.o)
+ .debug_info    0x00002f10      0x2d6 contiki-launchpad.a(rtimer-arch.o)
+ .debug_info    0x000031e6      0x174 contiki-launchpad.a(timer.o)
+ .debug_info    0x0000335a      0x2f4 contiki-launchpad.a(list.o)
+ .debug_info    0x0000364e       0xce /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .debug_info    0x0000371c       0xce /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .debug_info    0x000037ea      0x425 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .debug_info    0x00003c0f      0x3c9 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .debug_info    0x00003fd8      0x35c /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .debug_info    0x00004334      0x144 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+ .debug_info    0x00004478      0x204 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+ .debug_info    0x0000467c      0x109 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .debug_info    0x00004785      0x2b1 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+ .debug_info    0x00004a36      0x23e /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+ .debug_info    0x00004c74       0xa0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+ .debug_info    0x00004d14      0x105 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+ .debug_info    0x00004e19      0x565 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+ .debug_info    0x0000537e       0x96 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+ .debug_info    0x00005414       0xce /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .debug_info    0x000054e2       0xce /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .debug_info    0x000055b0       0xb8 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .debug_info    0x00005668       0xb8 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .debug_info    0x00005720       0xb8 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .debug_info    0x000057d8       0xb8 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .debug_info    0x00005890       0xb8 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .debug_info    0x00005948       0xb8 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x2c03
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1c1 readadc-poll.co
+ .debug_abbrev  0x000001c1      0x178 obj_launchpad/contiki-launchpad-main.o
+ .debug_abbrev  0x00000339      0x325 contiki-launchpad.a(process.o)
+ .debug_abbrev  0x0000065e       0xf7 contiki-launchpad.a(autostart.o)
+ .debug_abbrev  0x00000755      0x1ae contiki-launchpad.a(serial-line.o)
+ .debug_abbrev  0x00000903      0x27c contiki-launchpad.a(etimer.o)
+ .debug_abbrev  0x00000b7f      0x1b5 contiki-launchpad.a(ctimer.o)
+ .debug_abbrev  0x00000d34      0x12c contiki-launchpad.a(rtimer.o)
+ .debug_abbrev  0x00000e60      0x10b contiki-launchpad.a(ringbuf.o)
+ .debug_abbrev  0x00000f6b      0x138 contiki-launchpad.a(uart0.o)
+ .debug_abbrev  0x000010a3      0x1c8 contiki-launchpad.a(adc.o)
+ .debug_abbrev  0x0000126b      0x1e2 contiki-launchpad.a(pwm.o)
+ .debug_abbrev  0x0000144d       0xd3 contiki-launchpad.a(button.o)
+ .debug_abbrev  0x00001520      0x13e contiki-launchpad.a(msp430.o)
+ .debug_abbrev  0x0000165e      0x136 contiki-launchpad.a(clock.o)
+ .debug_abbrev  0x00001794       0x82 contiki-launchpad.a(minileds.o)
+ .debug_abbrev  0x00001816       0xd7 contiki-launchpad.a(watchdog.o)
+ .debug_abbrev  0x000018ed      0x174 contiki-launchpad.a(rtimer-arch.o)
+ .debug_abbrev  0x00001a61       0xfa contiki-launchpad.a(timer.o)
+ .debug_abbrev  0x00001b5b      0x153 contiki-launchpad.a(list.o)
+ .debug_abbrev  0x00001cae       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .debug_abbrev  0x00001cc2       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .debug_abbrev  0x00001cd6      0x1ab /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00001e81      0x1d9 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x0000205a      0x1c4 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .debug_abbrev  0x0000221e       0xba /usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x000022d8      0x173 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x0000244b       0xac /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x000024f7      0x192 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00002689      0x15a /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x000027e3       0x61 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+ .debug_abbrev  0x00002844       0xd0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+ .debug_abbrev  0x00002914      0x1ef /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+ .debug_abbrev  0x00002b03       0x60 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+ .debug_abbrev  0x00002b63       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .debug_abbrev  0x00002b77       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .debug_abbrev  0x00002b8b       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .debug_abbrev  0x00002b9f       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .debug_abbrev  0x00002bb3       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .debug_abbrev  0x00002bc7       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .debug_abbrev  0x00002bdb       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .debug_abbrev  0x00002bef       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+
+.debug_line     0x00000000     0x2bf8
+ *(.debug_line)
+ .debug_line    0x00000000      0x147 readadc-poll.co
+ .debug_line    0x00000147      0x1cf obj_launchpad/contiki-launchpad-main.o
+ .debug_line    0x00000316      0x1d9 contiki-launchpad.a(process.o)
+ .debug_line    0x000004ef       0xa9 contiki-launchpad.a(autostart.o)
+ .debug_line    0x00000598      0x136 contiki-launchpad.a(serial-line.o)
+ .debug_line    0x000006ce      0x220 contiki-launchpad.a(etimer.o)
+ .debug_line    0x000008ee      0x1b0 contiki-launchpad.a(ctimer.o)
+ .debug_line    0x00000a9e       0x93 contiki-launchpad.a(rtimer.o)
+ .debug_line    0x00000b31       0xfd contiki-launchpad.a(ringbuf.o)
+ .debug_line    0x00000c2e      0x10e contiki-launchpad.a(uart0.o)
+ .debug_line    0x00000d3c      0x1bc contiki-launchpad.a(adc.o)
+ .debug_line    0x00000ef8      0x1bf contiki-launchpad.a(pwm.o)
+ .debug_line    0x000010b7      0x146 contiki-launchpad.a(button.o)
+ .debug_line    0x000011fd      0x12e contiki-launchpad.a(msp430.o)
+ .debug_line    0x0000132b      0x1ef contiki-launchpad.a(clock.o)
+ .debug_line    0x0000151a       0xda contiki-launchpad.a(minileds.o)
+ .debug_line    0x000015f4       0xf8 contiki-launchpad.a(watchdog.o)
+ .debug_line    0x000016ec      0x18b contiki-launchpad.a(rtimer-arch.o)
+ .debug_line    0x00001877       0xde contiki-launchpad.a(timer.o)
+ .debug_line    0x00001955      0x155 contiki-launchpad.a(list.o)
+ .debug_line    0x00001aaa       0x99 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .debug_line    0x00001b43       0x9c /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .debug_line    0x00001bdf      0x13c /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .debug_line    0x00001d1b      0x134 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .debug_line    0x00001e4f       0xf6 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .debug_line    0x00001f45       0x91 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+ .debug_line    0x00001fd6       0xc3 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+ .debug_line    0x00002099       0xbe /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .debug_line    0x00002157       0xff /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+ .debug_line    0x00002256       0xda /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+ .debug_line    0x00002330       0x80 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+ .debug_line    0x000023b0       0x72 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+ .debug_line    0x00002422      0x2d2 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+ .debug_line    0x000026f4       0x4d /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+ .debug_line    0x00002741       0xab /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .debug_line    0x000027ec       0xf1 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .debug_line    0x000028dd       0x84 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .debug_line    0x00002961       0x82 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .debug_line    0x000029e3       0x88 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .debug_line    0x00002a6b       0x88 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .debug_line    0x00002af3       0x83 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .debug_line    0x00002b76       0x82 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+
+.debug_frame    0x00000000      0xc3a
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x34 readadc-poll.co
+ .debug_frame   0x00000034       0x36 obj_launchpad/contiki-launchpad-main.o
+ .debug_frame   0x0000006a       0xe8 contiki-launchpad.a(process.o)
+ .debug_frame   0x00000152       0x36 contiki-launchpad.a(autostart.o)
+ .debug_frame   0x00000188       0x3c contiki-launchpad.a(serial-line.o)
+ .debug_frame   0x000001c4       0xf8 contiki-launchpad.a(etimer.o)
+ .debug_frame   0x000002bc       0xaa contiki-launchpad.a(ctimer.o)
+ .debug_frame   0x00000366       0x36 contiki-launchpad.a(rtimer.o)
+ .debug_frame   0x0000039c       0x5e contiki-launchpad.a(ringbuf.o)
+ .debug_frame   0x000003fa       0x7a contiki-launchpad.a(uart0.o)
+ .debug_frame   0x00000474       0xb2 contiki-launchpad.a(adc.o)
+ .debug_frame   0x00000526       0xbe contiki-launchpad.a(pwm.o)
+ .debug_frame   0x000005e4       0x4a contiki-launchpad.a(button.o)
+ .debug_frame   0x0000062e       0x42 contiki-launchpad.a(msp430.o)
+ .debug_frame   0x00000670       0xc8 contiki-launchpad.a(clock.o)
+ .debug_frame   0x00000738       0x42 contiki-launchpad.a(minileds.o)
+ .debug_frame   0x0000077a       0x5a contiki-launchpad.a(watchdog.o)
+ .debug_frame   0x000007d4       0x90 contiki-launchpad.a(rtimer-arch.o)
+ .debug_frame   0x00000864       0x6a contiki-launchpad.a(timer.o)
+ .debug_frame   0x000008ce       0xbc contiki-launchpad.a(list.o)
+ .debug_frame   0x0000098a       0x6a /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .debug_frame   0x000009f4       0x4a /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000a3e       0x3a /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .debug_frame   0x00000a78       0x36 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x00000aae       0x2e /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000adc       0x38 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000b14       0x28 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000b3c       0x2a /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+ .debug_frame   0x00000b66       0xb0 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+ .debug_frame   0x00000c16       0x24 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+
+.debug_str      0x00000000     0x15b0
+ *(.debug_str)
+ .debug_str     0x00000000      0x1c9 readadc-poll.co
+                                0x23b (size before relaxing)
+ .debug_str     0x000001c9       0xdf obj_launchpad/contiki-launchpad-main.o
+                                0x253 (size before relaxing)
+ .debug_str     0x000002a8      0x16b contiki-launchpad.a(process.o)
+                                0x2c8 (size before relaxing)
+ .debug_str     0x00000413       0x3d contiki-launchpad.a(autostart.o)
+                                0x180 (size before relaxing)
+ .debug_str     0x00000450       0xbc contiki-launchpad.a(serial-line.o)
+                                0x23f (size before relaxing)
+ .debug_str     0x0000050c      0x136 contiki-launchpad.a(etimer.o)
+                                0x2d5 (size before relaxing)
+ .debug_str     0x00000642       0xca contiki-launchpad.a(ctimer.o)
+                                0x269 (size before relaxing)
+ .debug_str     0x0000070c       0xca contiki-launchpad.a(rtimer.o)
+                                0x1c2 (size before relaxing)
+ .debug_str     0x000007d6       0x67 contiki-launchpad.a(ringbuf.o)
+                                0x182 (size before relaxing)
+ .debug_str     0x0000083d      0x112 contiki-launchpad.a(uart0.o)
+                                0x25d (size before relaxing)
+ .debug_str     0x0000094f      0x11c contiki-launchpad.a(adc.o)
+                                0x2d8 (size before relaxing)
+ .debug_str     0x00000a6b      0x10a contiki-launchpad.a(pwm.o)
+                                0x2b6 (size before relaxing)
+ .debug_str     0x00000b75       0x70 contiki-launchpad.a(button.o)
+                                0x1fd (size before relaxing)
+ .debug_str     0x00000be5       0xe3 contiki-launchpad.a(msp430.o)
+                                0x278 (size before relaxing)
+ .debug_str     0x00000cc8       0xea contiki-launchpad.a(clock.o)
+                                0x232 (size before relaxing)
+ .debug_str     0x00000db2       0x54 contiki-launchpad.a(minileds.o)
+                                0x186 (size before relaxing)
+ .debug_str     0x00000e06       0x9e contiki-launchpad.a(watchdog.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000ea4       0xf6 contiki-launchpad.a(rtimer-arch.o)
+                                0x2a0 (size before relaxing)
+ .debug_str     0x00000f9a       0x2a contiki-launchpad.a(timer.o)
+                                0x16f (size before relaxing)
+ .debug_str     0x00000fc4       0xab contiki-launchpad.a(list.o)
+                                0x133 (size before relaxing)
+ .debug_str     0x0000106f      0x1a5 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+                                0x24a (size before relaxing)
+ .debug_str     0x00001214       0x27 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+                                0x203 (size before relaxing)
+ .debug_str     0x0000123b       0x35 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+                                0x20c (size before relaxing)
+ .debug_str     0x00000000      0x17c /usr/lib/gcc/msp430/4.6.3/libgcc.a(_thenan_sf.o)
+ .debug_str     0x00001270       0x2a /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+                                0x1bc (size before relaxing)
+ .debug_str     0x0000129a       0x78 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+                                0x181 (size before relaxing)
+ .debug_str     0x00001312       0x10 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00001322        0xb /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+                                0x1bb (size before relaxing)
+ .debug_str     0x00000000      0x164 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clz.o)
+ .debug_str     0x0000132d       0x67 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+                                0x12a (size before relaxing)
+ .debug_str     0x00001394      0x207 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+                                0x375 (size before relaxing)
+ .debug_str     0x0000159b       0x15 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+                                 0xf0 (size before relaxing)
+
+.debug_loc      0x00000000     0x2146
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x78 readadc-poll.co
+ .debug_loc     0x00000078        0xb obj_launchpad/contiki-launchpad-main.o
+ .debug_loc     0x00000083      0x21d contiki-launchpad.a(process.o)
+ .debug_loc     0x000002a0       0x56 contiki-launchpad.a(autostart.o)
+ .debug_loc     0x000002f6       0xa9 contiki-launchpad.a(serial-line.o)
+ .debug_loc     0x0000039f      0x270 contiki-launchpad.a(etimer.o)
+ .debug_loc     0x0000060f      0x205 contiki-launchpad.a(ctimer.o)
+ .debug_loc     0x00000814       0x5b contiki-launchpad.a(rtimer.o)
+ .debug_loc     0x0000086f       0xa3 contiki-launchpad.a(ringbuf.o)
+ .debug_loc     0x00000912       0xa6 contiki-launchpad.a(uart0.o)
+ .debug_loc     0x000009b8      0x12d contiki-launchpad.a(adc.o)
+ .debug_loc     0x00000ae5      0x158 contiki-launchpad.a(pwm.o)
+ .debug_loc     0x00000c3d       0x2c contiki-launchpad.a(button.o)
+ .debug_loc     0x00000c69       0x60 contiki-launchpad.a(msp430.o)
+ .debug_loc     0x00000cc9       0xd4 contiki-launchpad.a(clock.o)
+ .debug_loc     0x00000d9d       0x21 contiki-launchpad.a(minileds.o)
+ .debug_loc     0x00000dbe       0xb3 contiki-launchpad.a(rtimer-arch.o)
+ .debug_loc     0x00000e71       0xb9 contiki-launchpad.a(timer.o)
+ .debug_loc     0x00000f2a      0x1ac contiki-launchpad.a(list.o)
+ .debug_loc     0x000010d6      0x2ca /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .debug_loc     0x000013a0      0x23c /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .debug_loc     0x000015dc      0x110 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .debug_loc     0x000016ec       0x6c /usr/lib/gcc/msp430/4.6.3/libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x00001758       0x80 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .debug_loc     0x000017d8      0x181 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_pack_sf.o)
+ .debug_loc     0x00001959       0x83 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_unpack_sf.o)
+ .debug_loc     0x000019dc       0x38 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(printf.o)
+ .debug_loc     0x00001a14      0x70c /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+ .debug_loc     0x00002120       0x26 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(puts.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x2e4
+ *(.debug_ranges)
+ .debug_ranges  0x00000000        0x8 readadc-poll.co
+ .debug_ranges  0x00000008       0x10 obj_launchpad/contiki-launchpad-main.o
+ .debug_ranges  0x00000018       0x38 contiki-launchpad.a(process.o)
+ .debug_ranges  0x00000050        0xc contiki-launchpad.a(autostart.o)
+ .debug_ranges  0x0000005c       0x1c contiki-launchpad.a(serial-line.o)
+ .debug_ranges  0x00000078       0x3c contiki-launchpad.a(etimer.o)
+ .debug_ranges  0x000000b4       0x20 contiki-launchpad.a(ctimer.o)
+ .debug_ranges  0x000000d4       0x10 contiki-launchpad.a(rtimer.o)
+ .debug_ranges  0x000000e4       0x18 contiki-launchpad.a(ringbuf.o)
+ .debug_ranges  0x000000fc       0x1c contiki-launchpad.a(uart0.o)
+ .debug_ranges  0x00000118       0x28 contiki-launchpad.a(adc.o)
+ .debug_ranges  0x00000140       0x2c contiki-launchpad.a(pwm.o)
+ .debug_ranges  0x0000016c       0x10 contiki-launchpad.a(button.o)
+ .debug_ranges  0x0000017c       0x14 contiki-launchpad.a(msp430.o)
+ .debug_ranges  0x00000190       0x30 contiki-launchpad.a(clock.o)
+ .debug_ranges  0x000001c0       0x14 contiki-launchpad.a(minileds.o)
+ .debug_ranges  0x000001d4       0x1c contiki-launchpad.a(watchdog.o)
+ .debug_ranges  0x000001f0       0x24 contiki-launchpad.a(rtimer-arch.o)
+ .debug_ranges  0x00000214       0x18 contiki-launchpad.a(timer.o)
+ .debug_ranges  0x0000022c       0x34 contiki-launchpad.a(list.o)
+ .debug_ranges  0x00000260       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_addsub_sf.o)
+ .debug_ranges  0x00000274       0x28 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mul_sf.o)
+ .debug_ranges  0x0000029c       0x24 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_div_sf.o)
+ .debug_ranges  0x000002c0        0xc /usr/lib/gcc/msp430/4.6.3/libgcc.a(_clzsi2.o)
+ .debug_ranges  0x000002cc       0x18 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/libc.a(vuprintf.o)
+                0x00000400                PROVIDE (__stack, (ORIGIN (ram) + 0x200))
+                0x0000e624                PROVIDE (__data_start_rom, _etext)
+                0x0000e650                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
+OUTPUT(readadc-poll.launchpad elf32-msp430)
