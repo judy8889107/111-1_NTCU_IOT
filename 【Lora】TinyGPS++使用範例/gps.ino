@@ -2,10 +2,10 @@
 
 #include "LoRaWan.h"
 
-#ifdef USE_GPS
+#ifdef USE_GPS //若USE_GPS有被定義(前面#define USE_GPS 1了)，執行以下程序段
 #include "TinyGPS++.h"
 TinyGPSPlus gps;
-#endif
+#endif //結束程序段
 /*
 #ifdef  宏名
     程序段1
@@ -33,7 +33,7 @@ void setup(void)
   lora.init();
   lora.setDeviceReset();//reset裝置
 
-#ifdef USE_GPS
+#ifdef USE_GPS //若USE_GPS有被定義
   Serial.begin(9600);     // open the GPS
   locked = false;
 

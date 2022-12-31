@@ -11,6 +11,7 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 unsigned char data[2] = {1, 2};
+//unsigned char 範圍:0~256
 char buffer[256];
 
 void setup(void)
@@ -61,15 +62,22 @@ void loop(void)
   delay(2000);
   int h = dht.readHumidity();
   int t = dht.readTemperature();
-
+  
   SerialUSB.print("Humidity =");
   SerialUSB.println(h);
   SerialUSB.print("Temperature=");
   SerialUSB.println(t);
   //result = lora.transferPacket("Hello World!", 10);
+  /*
+  data[0] = 255;
+  printf("%u", data[0]);
+  
+  >>> 255
+  */
   data[0] = h;
   data[1] = t;
   result = lora.transferPacket(data, 2, 10);
+  // bool transferPacket(unsigned char *buffer, unsigned char length, unsigned char timeout = DEFAULT_TIMEOUT);
 
   if (result)
   {
