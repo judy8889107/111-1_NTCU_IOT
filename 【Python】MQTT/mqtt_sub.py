@@ -2,8 +2,7 @@ import paho.mqtt.client as mqtt
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
     channel_ID = "1760300"
-    mqtt_topic = "channels/" + channel_ID + "/publish/fields/field1" # 需同樣TOPIC
-    # 不能像 MQTT.fx一樣用 channels/channelID/subscribe
+    mqtt_topic = "channels/" + channel_ID + "/subscribe"
     client.subscribe(mqtt_topic)
 def on_message(client, userdata, msg):
     print(msg.topic+" "+str(msg.payload))
