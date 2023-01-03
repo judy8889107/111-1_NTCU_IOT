@@ -9,8 +9,8 @@ mqtt_client_id = "ER4HCSgfIhAUDA0GMiEmBgU"
 mqtt_username = "ER4HCSgfIhAUDA0GMiEmBgU"
 mqtt_password = "Op8uqXS4J6ivQlo+l9qlFslC"
 mqtt_port = 1883 #port
-mqtt_topic = "channels/" + channel_ID + "/publish/fields/field1" #TOPIC name
-payload = "100"
+mqtt_topic = "channels/" + channel_ID + "/publish" #TOPIC name
+payload = "field1=100&status=Message"
 
 mqttc = mqtt.Client(mqtt_client_id)  # 构造方法 Client(client_id="", clean_session=True, userdata=None, protocol=MQTTv311, transport="tcp")
 mqttc.username_pw_set(mqtt_username, mqtt_password)
