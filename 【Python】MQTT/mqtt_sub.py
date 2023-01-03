@@ -1,11 +1,16 @@
 import paho.mqtt.client as mqtt
+import json
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
     channel_ID = "1760300"
-    mqtt_topic = "channels/" + channel_ID + "/subscribe"
+    # mqtt_topic = "channels/" + channel_ID + "/subscribe/fields/field1" # 訂閱field1
+    mqtt_topic = "channels/" + channel_ID + "/subscribe" # 顯示全部fields
     client.subscribe(mqtt_topic)
 def on_message(client, userdata, msg):
-    print(msg.topic+" "+str(msg.payload))
+    print(msg.topic+" "+str(msg.payload)+"\n")
+    m_json = json.loads(msg.payload)
+    print("field1="+m_json["field1"])
+    print("status="+m_json["status"])
 
 mqtt_host = "mqtt3.thingspeak.com"
 
